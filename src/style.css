@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito";
+  color: var(--color-content-primary);
+}
+:root {
+  /*Color Variables*/
+  --color-bg-base: #13121a;
+  --color-bg-primary: #181828;
+  --color-bg-secondary: #222142;
+
+  --color-brand-primary: #6a66ff;
+  --color-brand-secondary: #c466ff;
+  --color-brand-gradient: linear-gradient(
+    135deg,
+    var(--brand-primary-color),
+    var(--brand-secondary-color)
+  );
+
+  --color-content-primary: #ffffff;
+  --color-content-secondary: #908ea5;
+  --color-content-disabled: #464559;
+
+  /*Font Varibles*/
+  --font-caption2-normal: 400 0.6875rem/0.6875rem "Nunito";
+  --font-caption2-bold: 700 0.6875rem/0.6875rem "Nunito";
+
+  --font-caption1-normal: 400 0.75rem/1rem "Nunito";
+  --font-caption1-bold: 600 0.75rem/1rem "Nunito";
+
+  --font-footnote-normal: 400 0.875rem/1.125rem "Nunito";
+  --font-footnote-bold: 700 0.875rem/1.125rem "Nunito";
+
+  --font-subhead-normal: 400 1rem/1.25rem "Nunito";
+  --font-subhead-bold: 700 1rem/1.25rem "Nunito";
+
+  --font-callout-normal: 400 1rem/1.3125rem "Inter";
+  --font-callout-bold: 600 1rem/1.3125rem "Inter";
+
+  --font-body-normal: 400 1.125rem/1.5rem "Nunito";
+  --font-body-bold: 800 1.125rem/1.5rem "Nunito";
+
+  --font-headline-normal: 400 1.0625rem/1.5rem "Inter";
+  --font-headline-bold: 600 1.0625rem/1.5rem "Inter";
+
+  --font-title3-normal: 400 1.25rem/1.5rem "Nunito";
+  --font-title3-bold: 700 1.25rem/1.5rem "Nunito";
+
+  --font-title2-normal: 400 1.375rem/1.75rem "Nunito";
+  --font-title2-bold: 600 1.375rem/1.75rem "Nunito";
+
+  --font-title1-normal: 400 1.75rem/2.125rem "Nunito";
+  --font-title1-bold: 700 1.75rem/2.125rem "Nunito";
+
+  --font-large-title-normal: 400 2.15rem/2.5625rem "Nunito";
+  --font-large-title-bold: 800 2.125rem/2.5625rem "Nunito";
+}
+body {
+  background-color: var(--color-bg-base);
+}
